@@ -1,0 +1,12 @@
+.result {
+    width: 320px;
+    height: 100px;
+    border: black 2px solid;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+}
+
