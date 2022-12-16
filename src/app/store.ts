@@ -1,8 +1,9 @@
 import {configureStore} from "@reduxjs/toolkit";
+import {doorPhoneReducer} from "../containers/DoorPhone/doorPhoneSlice";
 
 export const store = configureStore({
   reducer: {
-
+    doorPhone: doorPhoneReducer,
   },
 });
 
